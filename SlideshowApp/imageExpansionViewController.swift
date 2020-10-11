@@ -17,8 +17,9 @@ class imageExpansionViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        // ViewController.prepare で設定した画像名を元に設定
+         // ViewController.prepare で設定した画像名を元に設定
         exImage.image = UIImage(named: recvImg)
+/*
         let w:CGFloat = exImage.image!.size.width
         let h:CGFloat = exImage.image!.size.height
         //print(w)
@@ -32,6 +33,8 @@ class imageExpansionViewController: UIViewController {
         
         // 画像を中央に
         exImage.center = self.view.center
+*/
+        
     }
     
     @IBOutlet weak var exImage: UIImageView!
